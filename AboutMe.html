@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #c5d9d0;
+            font-family: 'Amatic SC', cursive;
+            color: #333;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #eee;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #c5d9d0;
+            color: #333;
+        }
+
+        body > p {
+            margin-top: 60px;
+        }
+
+        #content1 {
+            background: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            margin-top: 60px;
+        }
+
+        #content1 img {
+            max-width: 75%;
+            max-height: 75%;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+            margin-top: 15%;
+        }
+
+        #content2 {
+            background: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 50vh;
+            margin-top: 0;
+        }
+
+        #greeting {
+            max-width: 40%;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        #box {
+            padding: 20px;
+            max-width: 60%;
+            text-align: center;
+            margin: auto; /* Yatayda ortala */
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #education-content {
+    background: #eee;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 30%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    margin-top: 3%;
+    position: relative;
+}
+
+#education-content::before {
+    content: '';
+    position: absolute;
+    left: -10%; /* Çizginin sol kenarı */
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Çizginin genişliği */
+    background-color: #333; /* Çizgi rengi */
+}
+
+        #education-content p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="MainPage.html">HOME</a>
+        <a href="MainPage.html">PROJECTS</a>
+        <a href="MainPage.html">HOBIES</a>
+        <a href="ContactPage.html">CONTACT</a>
+    </nav>
+    <div id="content1">
+        <img src="smile.jpg" alt="">
+    </div>
+    <div id="content2">
+        <p id="greeting">
+            Hello, I hope you are having a good day.
+            I'm an energetic person trying to make life fun,
+            you can scroll to know more about me :)
+        </p>
+    </div>
+
+    <div id="box">
+        <p>
+            I am an electrical and electronics engineer with a high work ethic and focused on learning and success
+            . I aim to produce efficient solutions with my technical skills, analytical thinking ability
+            , and creative perspective. I constantly improve myself, follow new technologies
+            , and aim to achieve successful results by using them in my projects. I am compatible with teamwork
+            , and with all these features, I finish what I started as an ambitious engineer candidate.
+        </p>
+    </div>
+
+    <h1>EDUCATION</h1>
+    <div id="education-content">
+        <h3>Bülent Ecevit University [2018-2023]</h3>
+        <p> 
+            I am a graduate student of Electrical and Electronics Engineering
+            , I received a B1 level English education certificate by taking 
+            English preparatory education for one year in the accreditation 
+            study carried out by the PEARSON organization at our university.
+        </p>
+    </div>
+
+    <div id="education-content">
+        <h3>Atatürk University [2020-2022]</h3>
+        <p> 
+            I graduated from the Department of Computer Programming (associate degree) 
+            and I participated in order to keep my software and hardware knowledge up-to-date.
+        </p>
+    </div>
+
+    <div id="education-content">
+        <h3>75th YEARS D.M.O. VOCATIONAL AND TECHNICAL ANATOLIAN HIGH SCHOOL [2013-2017]</h3>
+        <p> 
+            I studied Database Programming. I received training in C++, C#
+            , HTML codes and Adobe programs, and also received a business opening and mastery certificate.
+        </p>
+    </div>
+</body>
+</html>
