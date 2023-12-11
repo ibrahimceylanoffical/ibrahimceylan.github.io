@@ -64,8 +64,19 @@
         }
         @media screen and (max-width: 600px) {
             img {
-                max-width: 60%; /* veya başka bir değer */
-                max-height: 60%; /* veya başka bir değer */
+                max-width: 80%;
+                max-height: 80%;
+                order: -1; /* Resmi tabloların üstüne yerleştir */
+                margin-bottom: 20px; /* Tablolarla arasına boşluk bırak */
+            }
+
+            #content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            table {
+                width: 100%;
             }
         }
 
